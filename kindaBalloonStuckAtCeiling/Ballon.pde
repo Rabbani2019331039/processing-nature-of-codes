@@ -36,7 +36,7 @@ class Ballon{
   boolean isTop(){
      if(loc.y - sz+18 < 0){
        loc.y = sz-18;
-       vel.y = -vel.y*sqrt(.4);
+       vel.y = -vel.y*sqrt(.5);
        return true;
      }
      return false;

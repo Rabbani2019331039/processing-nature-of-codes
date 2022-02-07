@@ -30,11 +30,12 @@ void draw(){
   b.applyForce(antiGravity);
   b.applyForce(wind);
   
+
   b.isTop();
   b.checkEdges();
   b.update();
   b.display();
   //b.update();
   
-  println(b.vel, wind);
+  println(b.vel);
 }
